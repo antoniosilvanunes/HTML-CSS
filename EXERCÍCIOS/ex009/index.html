@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas ordenadas</h2>
+    <ol type="I"> <!--1 A a I i-->
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar Café</li>
+        <li>Escovar os dentes</li> 
+        <!--O /li é opicional, o li tem por função salvar os elementos da lista, start é de onde quer que a lista comece ex: 4,5,6...-->
+        <li>Ir para a faculdade</li>
+        <li>Almoçar</li>
+        <li>Ir para o trabalho</li>
+        <li>Voltar para casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+
+        <ol type="1" start="6"></ol>
+    </ol>   
+    <H2>Listas não Ordenadas</H2>
+    <ul type="square"> <!--disc, circle, square-->
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Alface</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+    <h2>Minhas linguagens favoritas</h2>
+    <ol type="a">
+        <li>Antigas</li>
+        <ol>
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5"> <!--Para uma lista ter continuidade da outra digite o algarismo da próxima letra, letras naõ funcionam tem que ser um número-->
+            <li>PHP</li>
+            <li>Phyton</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>NES</li>
+        <ul type="square">
+            <li>Mario Bros</li>
+            <ul type="circle">
+                <li>Mario Bros 3</li>
+                <li>Mario: Lost Levels</li>
+            </ul>
+            <li>Ninja Gaiden</li>
+        </ul>
+        <li>SNES</li>
+        <ul type="square">
+            <li>Mario</li>
+            <li>Donkey Kong</li>
+        </ul>
+        <li>PlayStation</li>
+        <ul type="square">
+            <li>Final Fantasy</li>
+            <li>Castlevania</li>
+        </ul> <!--Para colocar uma lista dentro de outra basta  digita as tags ul ou ol, e dentro destas tags colocar o li para criar uma lista, para criar mais de um cursor para alterar o texto segure a tecla Alt-->
+    </ol> 
+    <h2>Lista de Definições</h2>
+    <dl>
+        <dt>Termo</dt>
+        <dd>Descrição</dd>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para criação do design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+        <!--Ctrl+Enter= Atalho para a próxima linha-->
+        <!--dd é a palavra e dd é o que significa esta palavra.-->
+
+    </dl>
+</body>
+</html>

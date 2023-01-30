@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar meu <a href="https://gustavoguanabara.github.io" target="_blank" rel="external">repositório público no GitHub</a>.</p> 
+    <!--a tag A significa ancora e serve para colocar um link detro da frase selecionada-->
+    <p>Você também pode acessar o meu <a href="https://youtube.com/cursoemvideo/" target="_blank" rel="external">canal gratuito no YouTube</a></p>
+    <!--target="_blank" rel="external" serve para o site do link não sobrepor o seu, esse link tem por função criar uma nova aba-->
+    <h2>Links internos</h2>
+    <p>Esta é a primeira página so site. Se você quiser, pode acessar também a minha <a href="pag002.html" rel="next">segunda página</a></p>
+    <!--Para acessar uma página com link interno basta primeiro criar um segundo site, e escrever a tag A, apoós isto em rel colocar "next" para indicar que está é a segunda página sem que o mecanismo de peaquisa ache que este é a primeira página, na segunda página faça a tag A adicione o endereço da primeira página, em rel coloque prev para voltar a página anterior e manter-lá como a primeira-->
+    <!--Para criar um link de outra página ex: um patrocinio  <p>Está página é um oferecimento de <a href="https://www.hostnet.com.br" target="_blank" rel="nofollow">Hostnet</a></p> crie a tag A normalmente e na tag rel coloque nofollow que significa não siga que é um link que não é de sua página-->
+    <p>Você também pode acessar nossa <a href="noticias/pag003.html">página de notícias</a></p>
+    <!--Informe o caminho caso uma página esteja dentro de uma pasta, dentro das aspas com as teclas Ctrl+espaço e mostre este caminho.-->
+    <h1>Links para donwload</h1>
+    <ul>
+        <li><a href="livro/10 - Ligações em toda parte.pdf" download="ligaçõesemtodaparte.pdf" type="application/pdf">Baixar livro em PDF</a></li> <!--Esse link pode funcionar em alguns navegadores, mas ele não faz o download, apenas abre uma aba no navegador, mas para fazer o donwload tem que clicar no link do site e salva como e assim salvar em uma pasta do computador.-->
+        <li><a href="livro/10 - Ligações em toda parte.zip" download="meulivro.zip" type="application/zip">Livro compactado em ZIP</a></li><!--O arquivo deve ser compactado em zip-->
+    </ul>
+
+</body>
+</html>

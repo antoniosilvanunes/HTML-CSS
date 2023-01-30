@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de responsividade</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 280px; /* A maneira correta de se definir a medida do site */
+            max-width: 800px;
+
+            margin: auto;
+        }
+
+        img {
+            width: 100%; /*A imagem se adapta ao site*/
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <h1>Testando responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis consectetur odio animi maiores praesentium nostrum magni sint, ab labore ratione exercitationem mollitia. Quibusdam, numquam facilis veniam harum molestiae magni consequatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto corrupti voluptatem molestias ad cumque, obcaecati, officiis magni praesentium, iure suscipit enim et deserunt id distinctio minus itaque debitis eveniet excepturi. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores repellendus, ipsum molestiae minima quaerat fugiat explicabo vel possimus, aspernatur ipsa et magni hic, cupiditate quos minus aliquam odio omnis debitis.
+        </p>
+        <picture>
+            <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg"> <!--Esta tag serve para adicionar a outra versão da foto de acordo com os px desejados e tem que ficar dentro de picture-->
+            <img src="imagens/irina-blok.jpg" alt="">
+        </picture>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis consectetur odio animi maiores praesentium nostrum magni sint, ab labore ratione exercitationem mollitia. Quibusdam, numquam facilis veniam harum molestiae magni consequatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto corrupti voluptatem molestias ad cumque, obcaecati, officiis magni praesentium, iure suscipit enim et deserunt id distinctio minus itaque debitis eveniet excepturi. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores repellendus, ipsum molestiae minima quaerat fugiat explicabo vel possimus, aspernatur ipsa et magni hic, cupiditate quos minus aliquam odio omnis debitis.
+        </p>
+    </main>
+</body>
+</html>
